@@ -21,12 +21,31 @@
 #teste{
     filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
 	overflow: visible;
+	position: relative;
+	width: 500px;
+	height: 800px;
+	left: 60px;
+	
+	transform: matrix(1,0,0,1,0,0);
+	
+}
+
+#Grupo_93 {
+	position: absolute;
+	width: 500px;
+	overflow: visible;
+}
+#teste{
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
 	position: absolute;
 	width: 1100px;
 	height: 800px;
 	left: 60px;
 	top: 800px;
 	transform: matrix(1,0,0,1,0,0);
+
 }
+
 
   

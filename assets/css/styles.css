@@ -158,6 +158,7 @@ img{
   display: flex;
   justify-content: space-between;
   align-items: center;
+ 
 }
 
 @media screen and (max-width: 768px){
@@ -269,6 +270,7 @@ img{
 .home__img{
   width: 300px;
   justify-self: center;
+  border-radius: 10px;
 }
 
 /*========== BUTTONS ==========*/
@@ -288,6 +290,7 @@ img{
 /*========== ABOUT ==========*/
 .about__data{
   text-align: center;
+  top: 900px;
 }
 
 .about__description{
